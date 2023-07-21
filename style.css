@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0; /* Light gray background color */
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+}
+
+h1, h2 {
+    color: #555; /* Header text color */
+}
+
+#configForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Border around the form */
+    border-radius: 5px;
+}
+
+#configForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#configForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#configForm input[type="submit"],
+#addAsset {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* Button text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#configForm input[type="submit"]:hover,
+#addAsset:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

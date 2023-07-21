@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configuration Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="blockchain-pattern">
+    <h1>Configuration Interface</h1>
+    <form id="configForm">
+        <!-- Owner Section -->
+        <div id="ownerSection">
+            <h2>Owner Information</h2>
+            <label for="ownerId">Owner ID:</label>
+            <input type="text" id="ownerId" required>
+        </div>
+
+        <!-- Assets Section -->
+        <div id="assetsSection">
+            <h2>Assets</h2>
+            <div id="assetsContainer">
+                <!-- Asset entries will be dynamically added here -->
+            </div>
+
+            <button type="button" id="addAsset">Add Asset</button>
+        </div>
+
+        <input type="submit" value="Save Configuration">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
